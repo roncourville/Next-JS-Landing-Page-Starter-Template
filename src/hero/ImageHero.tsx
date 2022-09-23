@@ -49,7 +49,7 @@ const ImageHero = (props: IHeroOneButtonProps) => {
                 href="#!"
                 role="button"
               >
-                Read more
+                Learn about our mission
               </a>
             </div>
           </div>
