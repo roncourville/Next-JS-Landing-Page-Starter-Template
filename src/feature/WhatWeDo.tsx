@@ -63,7 +63,7 @@ const WhatWeDo = () => (
         }}
       >
         {/* service block */}
-        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2" style={{backgroundColor: '#b1cdc0'}}>
+        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2 cursor-pointer" style={{backgroundColor: '#b1cdc0'}}>
           <div className="inline-block text-gray-900 mb-4">
             {/* icon */}
             <svg
@@ -98,7 +98,7 @@ const WhatWeDo = () => (
         }}
       >
         {/* service block */}
-        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2" style={{backgroundColor: '#b1cdc0'}}>
+        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2 cursor-pointer" style={{backgroundColor: '#b1cdc0'}}>
           <div className="inline-block text-gray-900 mb-4">
             {/* icon */}
             <svg
@@ -134,7 +134,7 @@ const WhatWeDo = () => (
         }}
       >
         {/* service block */}
-        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2" style={{backgroundColor: '#b1cdc0'}}>
+        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2 cursor-pointer" style={{backgroundColor: '#b1cdc0'}}>
           <div className="inline-block text-gray-900 mb-4">
             {/* icon */}
             <svg
@@ -168,7 +168,7 @@ const WhatWeDo = () => (
         }}
       >
         {/* service block */}
-        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2" style={{backgroundColor: '#b1cdc0'}}>
+        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2 cursor-pointer" style={{backgroundColor: '#b1cdc0'}}>
           <div className="inline-block text-gray-900 mb-4">
             {/* icon */}
             <svg
