@@ -23,7 +23,7 @@ const PressReleases = () => (
           </a>
           <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</span>
           <span className="text-sm text-gray-500 dark:text-gray-300">
-            On: 20 October 2019
+            On: 20 October 2023
           </span>
         </div>
       </div>
@@ -42,7 +42,7 @@ const PressReleases = () => (
           </a>
           <span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</span>
           <span className="text-sm text-gray-500 dark:text-gray-300">
-            On: 20 October 2019
+            On: 10 October 2023
           </span>
         </div>
       </div>
@@ -61,7 +61,7 @@ const PressReleases = () => (
           </a>
           <span>Veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</span>
           <span className="text-sm text-gray-500 dark:text-gray-300">
-            On: 25 November 2020
+            On: 25 November 2022
           </span>
         </div>
       </div>
@@ -80,7 +80,7 @@ const PressReleases = () => (
           </a>
           <span>Quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit.</span>
           <span className="text-sm text-gray-500 dark:text-gray-300">
-            On: 30 September 2020
+            On: 30 September 2022
           </span>
         </div>
       </div>
