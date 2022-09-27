@@ -11,7 +11,7 @@
     "clean": "rimraf .next out",
     "lint": "next lint",
     "build-types": "tsc --noEmit --pretty",
-    "prepare": "npm install"
+    "prepare": "husky install"
   },
   "dependencies": {
     "@auth0/nextjs-auth0": "^1.9.1",
