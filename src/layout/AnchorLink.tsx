@@ -11,7 +11,7 @@ type IAnchorLinkProps = {
   children: ReactNode;
 };
 
-export const AnchorLink = ({ children, href, className, icon, tabIndex, testId } : IAnchorLinkProps) => {
+const AnchorLink = ({ children, href, className, icon, tabIndex, testId } : IAnchorLinkProps) => {
   return (
     <a href={href}>
       <NavBarItem href={href} className={className} icon={icon} tabIndex={tabIndex} testId={testId}>
@@ -21,4 +21,4 @@ export const AnchorLink = ({ children, href, className, icon, tabIndex, testId }
   );
 };
 
-//export default AnchorLink;
+export default AnchorLink;
