@@ -17,14 +17,6 @@
             "scopes": ["openid", "profile"],
             "loginParameterNames": []
           }
-        },
-        "azureActiveDirectory": {
-          "userDetailsClaim": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
-          "registration": {
-            "openIdIssuer": "https://login.microsoftonline.com/3f8a7bc4-e337-47a5-a0fc-0d512c0e05f1",
-            "clientIdSettingName": "AZURE_CLIENT_ID",
-            "clientSecretSettingName": "AZURE_CLIENT_SECRET"
-          }
         }
       }
     }
