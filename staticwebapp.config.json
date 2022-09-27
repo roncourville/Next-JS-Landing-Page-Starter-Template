@@ -11,7 +11,7 @@
             },
 
             "openIdConnectConfiguration": {
-              "wellKnownOpenIdConfiguration": "https://proud-ocean-03193bd1e.1.azurestaticapps.net/.well-known/openid-configuration"
+              "wellKnownOpenIdConfiguration": "https://dev-sgjmi9wl.us.auth0.com/.well-known/openid-configuration"
             }
           },
 
