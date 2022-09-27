@@ -2,7 +2,7 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const NavBarItem = ({ children, href, className, icon, tabIndex, testId }) => {
+export const NavBarItem = ({ children, href, className, icon, tabIndex, testId }) => {
   const router = useRouter();
   const activeClass = 'navbar-item-active';
   const activeClasses = className ? `${className} ${activeClass}` : activeClass;
@@ -17,4 +17,4 @@ const NavBarItem = ({ children, href, className, icon, tabIndex, testId }) => {
   );
 };
 
-export default NavBarItem;
+//export default NavBarItem;

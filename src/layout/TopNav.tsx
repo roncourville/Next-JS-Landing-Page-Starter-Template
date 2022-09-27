@@ -19,8 +19,8 @@ import {
   NavLink
 } from "reactstrap";
 import { useUser } from "@auth0/nextjs-auth0";
-import PageLink from "./PageLink";
-import AnchorLink from "./AnchorLink";
+import {PageLink} from "./PageLink";
+import {AnchorLink} from "./AnchorLink";
 
 const TopNav = () => {
   const [isOpen, setIsOpen] = useState(false);

@@ -3,7 +3,16 @@ import Link from 'next/link';
 
 import NavBarItem from './NavBarItem';
 
-const PageLink = ({ children, href, className, icon, tabIndex, testId }) => {
+type IPageLinkProps = {
+  href: string,
+  className?: string,
+  icon?: string,
+  tabIndex?: any,
+  testId?: any,
+  children: ReactNode;
+};
+
+const PageLink = ({ children, href, className, icon, tabIndex, testId }: IPageLinkProps) => {
   return (
     <Link href={href}>
       <a>
