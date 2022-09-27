@@ -1,8 +1,17 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import { useRouter } from 'next/router';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const NavBarItem = ({ children, href, className, icon, tabIndex, testId }) => {
+interface INavBarItemProps {
+  href: string,
+  className?: string,
+  icon?: any,
+  tabIndex?: any,
+  testId?: any,
+  children: ReactNode;
+}
+
+const NavBarItem = ({ children, href, className, icon, tabIndex, testId }: INavBarItemProps) => {
   const router = useRouter();
   const activeClass = 'navbar-item-active';
   const activeClasses = className ? `${className} ${activeClass}` : activeClass;
