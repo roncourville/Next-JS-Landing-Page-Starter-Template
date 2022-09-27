@@ -54,7 +54,7 @@ const TopNav = () => {
 
                               <li>
                               <AnchorLink
-href="/api/auth/login"
+href="/.auth/login/auth0"
 icon="power-off"
 testId="navbar-logout-desktop"
 >
