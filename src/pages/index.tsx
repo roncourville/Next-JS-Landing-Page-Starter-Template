@@ -11,21 +11,14 @@ import { PressReleases } from '../feature/PressReleases';
 
 const Index = () => 
 <>
-  <div className="antialiased text-gray-600">
-      <Meta title={AppConfig.title} description={AppConfig.description} />
-      <TopNav />
-      <ImageHero
-        title='There are many ways to live with breast cancer. Each woman will make her own choices and walk her own path.'
-        description='Hello world'
-        button={(<button>test</button>)}
-      />
+  {/* <div className="antialiased text-gray-600"> */}
+      
       <WhatWeDo />
       <FullWidthText />
       <PressReleases />
       {/* <VerticalFeatures /> */}
       <Banner />
-      <Footer />
-    </div>
+    {/* </div> */}
 </>;
 
 export default Index;

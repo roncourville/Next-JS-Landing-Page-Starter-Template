@@ -1,37 +1,109 @@
 import Link from "next/link";
-// import { ReactNode } from "react";
+import React, { useState } from "react";
 import { Section } from "./Section";
 import { NavbarTwoColumns } from "../navigation/NavbarTwoColumns";
 import { Logo } from "../templates/Logo";
+import {
+  Collapse,
+  Container,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+  Dropdown,
+  NavLink
+} from "reactstrap";
+import { useUser } from "@auth0/nextjs-auth0";
+import PageLink from "./PageLink";
+import AnchorLink from "./AnchorLink";
 
-const TopNav = () => (
-  <header className="text-center">
-    <Section yPadding="py-6">
-      <NavbarTwoColumns logo={<Logo />}>
-        {/* <li>
+const TopNav = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const { user, isLoading } = useUser();
+  const toggle = () => {console.log(1); setIsOpen(!isOpen)};
+
+  const [dropdownOpen, setIsOpen2] = useState(false);
+  const toggle2 = () => {console.log(2); setIsOpen2(!dropdownOpen)};
+
+  return (
+    <header className="text-center">
+      <Section yPadding="py-6">
+        <NavbarTwoColumns logo={<Logo />}>
+          {/* <li>
           <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
             <a>GitHub</a>
           </Link>
         </li> */}
-        <li>
-          <Link href="/">
-            <a>Contact</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/">
-            <a>FAQ</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/">
-            <a>Sign in</a>
-          </Link>
-        </li>
+          <li>
+            <Link href="#">
+              <a>Contact</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="#">
+              <a>FAQ</a>
+            </Link>
+          </li>
 
-      </NavbarTwoColumns>
-    </Section>
-  </header>
-);
+          {!isLoading && !user && (
+
+                              <li>
+                              <AnchorLink
+href="/api/auth/login"
+icon="power-off"
+testId="navbar-logout-desktop"
+>
+Sign in
+</AnchorLink>
+</li>
+                    )}
+
+
+
+          {user && (
+            <>
+                                <li>
+                                <Link href="#">
+                                  <a>Secured link</a>
+                                </Link>
+                              </li>
+
+                              <li>
+                                                            <AnchorLink
+                              href="/api/auth/logout"
+                              icon="power-off"
+                              testId="navbar-logout-desktop"
+                            >
+                              Log out
+                            </AnchorLink>
+                              </li>
+
+
+                              </>
+                    )}
+
+          {/* <Dropdown isOpen={dropdownOpen} toggle={toggle2}>
+        <DropdownToggle caret>
+          Dropdown
+        </DropdownToggle>
+        <DropdownMenu>
+          <DropdownItem header>Header</DropdownItem>
+          <DropdownItem disabled>Action</DropdownItem>
+          <DropdownItem>Another Action</DropdownItem>
+          <DropdownItem divider />
+          <DropdownItem>Another Action</DropdownItem>
+        </DropdownMenu>
+      </Dropdown> */}
+
+        </NavbarTwoColumns>
+      </Section>
+    </header>
+  );
+};
 
 export { TopNav };
