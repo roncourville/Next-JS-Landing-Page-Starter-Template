@@ -3,8 +3,8 @@ import { useRouter } from 'next/router';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 interface INavBarItemProps {
-  href: string,
-  className?: string,
+  href: any,
+  className?: any,
   icon?: any,
   tabIndex?: any,
   testId?: any,

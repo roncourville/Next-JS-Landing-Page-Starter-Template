@@ -3,9 +3,9 @@ import React, { ReactNode } from 'react';
 import NavBarItem from './NavBarItem';
 
 type IAnchorLinkProps = {
-  href?: string,
-  className?: string,
-  icon?: string,
+  href?: any,
+  className?: any,
+  icon?: any,
   tabIndex?: any,
   testId?: any,
   children: ReactNode;

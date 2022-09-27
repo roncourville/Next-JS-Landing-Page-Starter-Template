@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import Link from 'next/link';
 
 import NavBarItem from './NavBarItem';
 
 type IPageLinkProps = {
-  href: string,
-  className?: string,
-  icon?: string,
+  href: any,
+  className?: any,
+  icon?: any,
   tabIndex?: any,
   testId?: any,
   children: ReactNode;
