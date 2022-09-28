@@ -13,6 +13,8 @@ export async function getUserInfo() {
       const payload = await response.json();
       const { clientPrincipal } = payload;
       //window.currentUserProfile = payload;
+      console.log('clientPrincipal');
+      console.log(clientPrincipal);
       return clientPrincipal;
     } catch (error) {
       console.error('No profile could be found');
