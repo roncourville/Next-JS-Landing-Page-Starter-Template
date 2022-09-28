@@ -26,7 +26,7 @@ export async function isUserSignedIn() {
     return true;
   }
   const userInfo = await getUserInfo();
-  if (userInfo && userInfo?.clientPrincipal?.claims) { 
+  if (userInfo && userInfo.userDetails) { 
     return true;
    }
   return false;

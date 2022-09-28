@@ -84,7 +84,7 @@ Sign in
 
                               <li>
                                                             <AnchorLink
-                              href="/api/auth/logout"
+                              href="/.auth/logout"
                               icon="power-off"
                               testId="navbar-logout-desktop"
                             >
