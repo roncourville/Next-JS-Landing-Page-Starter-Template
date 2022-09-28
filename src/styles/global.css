@@ -44,3 +44,14 @@ p code {
 .result-block-container .result-block {
   opacity: 1;
 }
+
+
+
+/* Pathways */
+.fa-power-off {
+  width: 13px;
+  display: inline;
+  margin-right: 5px;
+  position: relative;
+  top: -1px;
+}

@@ -1,5 +1,5 @@
+import React, { useState, useEffect } from 'react';
 import Link from "next/link";
-import React, { useState } from "react";
 import { Section } from "./Section";
 import { NavbarTwoColumns } from "../navigation/NavbarTwoColumns";
 import { Logo } from "../templates/Logo";
@@ -21,14 +21,23 @@ import {
 import { useUser } from "@auth0/nextjs-auth0";
 import PageLink from "./PageLink";
 import AnchorLink from "./AnchorLink";
+import { isUserSignedIn } from "../utils/utils";
 
 const TopNav = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const { user, isLoading } = useUser();
+  //const { user, isLoading } = useUser();
   const toggle = () => {console.log(1); setIsOpen(!isOpen)};
 
   const [dropdownOpen, setIsOpen2] = useState(false);
   const toggle2 = () => {console.log(2); setIsOpen2(!dropdownOpen)};
+
+  const [userSignedIn, setUserInfo] = useState(false);
+
+  useEffect(() => {
+    (async () => {
+      setUserInfo(await isUserSignedIn());
+    })();
+  }, []);
 
   return (
     <header className="text-center">
@@ -50,11 +59,11 @@ const TopNav = () => {
             </Link>
           </li>
 
-          {!isLoading && !user && (
+          {!userSignedIn && (
 
                               <li>
                               <AnchorLink
-href="/.auth/login/auth0"
+href="/.auth/login/auth0?post_login_redirect_uri=/partners"
 icon="power-off"
 testId="navbar-logout-desktop"
 >
@@ -65,7 +74,7 @@ Sign in
 
 
 
-          {user && (
+          {userSignedIn && (
             <>
                                 <li>
                                 <Link href="#">
