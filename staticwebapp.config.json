@@ -1,4 +1,48 @@
 {
+  "routes": [
+    {
+      "route": "/admin/index.html",
+      "allowedRoles": ["administrator"]
+    },
+    {
+      "route": "/api/*",
+      "methods": ["GET"],
+      "allowedRoles": ["registeredusers"]
+    },
+    {
+      "route": "/api/*",
+      "methods": ["PUT", "POST", "PATCH", "DELETE"],
+      "allowedRoles": ["administrator"]
+    },
+    {
+      "route": "/api/*",
+      "allowedRoles": ["authenticated"]
+    },
+    {
+      "route": "/partners/*",
+      "allowedRoles": ["administrator", "authenticated"]
+    },
+    {
+      "route": "/login",
+      "rewrite": "/.auth/login/auth0?post_login_redirect_uri=/partners"
+    },
+    {
+      "route": "/logout",
+      "rewrite": "/.auth/logout"
+    },
+    {
+      "route": "/.auth/login/twitter",
+      "statusCode": 404
+    },
+    {
+      "route": "/.auth/login/aad",
+      "statusCode": 404
+    },
+    {
+      "route": "/.auth/login/github",
+      "statusCode": 404
+    }
+  ],
   "auth": {
     "identityProviders": {
       "customOpenIdConnectProviders": {

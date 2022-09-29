@@ -63,7 +63,7 @@ const TopNav = () => {
 
                               <li>
                               <AnchorLink
-href="/.auth/login/auth0?post_login_redirect_uri=/partners"
+href="/login"
 icon="power-off"
 testId="navbar-logout-desktop"
 >
@@ -84,7 +84,7 @@ Sign in
 
                               <li>
                                                             <AnchorLink
-                              href="/.auth/logout"
+                              href="/logout"
                               icon="power-off"
                               testId="navbar-logout-desktop"
                             >
