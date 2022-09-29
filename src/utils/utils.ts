@@ -24,9 +24,9 @@ export async function getUserInfo() {
 }
 
 export async function isUserSignedIn() {
-  if (window.location.href.toLowerCase().indexOf('localhost')) {
-    return true;
-  }
+  // if (window.location.href.toLowerCase().indexOf('localhost')) {
+  //   return true;
+  // }
   const userInfo = await getUserInfo();
   if (userInfo && userInfo.userDetails) { 
     return true;
