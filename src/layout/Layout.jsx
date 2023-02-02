@@ -41,7 +41,7 @@ const Layout = ({ children }) => (
       <TopNav />
       <ImageHero
         title='There are many ways to live with breast cancer. Each woman will make her own choices and walk her own path.'
-        description='Hello world '
+        description='Hello world'
         button={(<button>test</button>)}
       />
       {children}
