@@ -10,7 +10,7 @@ const WhatWeDo = () => (
     {/* Heading start */}
     <header className="text-center mx-auto mb-5 lg:px-20">
       <h2 className="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">
-        Featured topics
+        Featured topics.
       </h2>
       <svg
         version="1.1"
