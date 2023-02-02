@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - master
-      - marity
+      - marity2
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
