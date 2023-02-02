@@ -13,12 +13,12 @@ const queryClient = new QueryClient();
 
 export default function App({ Component, pageProps }: { Component: any, pageProps: any }) {
   return (
-    <UserProvider>
-      <QueryClientProvider client={queryClient}>
-        <Layout>
+    // <UserProvider>
+    //   <QueryClientProvider client={queryClient}>
+    //     <Layout>
           <Component {...pageProps} />
-        </Layout>
-      </QueryClientProvider>
-    </UserProvider>
+    //     </Layout>
+    //   </QueryClientProvider>
+    // </UserProvider>
   );
 }
