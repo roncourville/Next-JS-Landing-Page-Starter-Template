@@ -85,11 +85,7 @@ const Footer = () => (
             <a>Docs</a>
           </Link>
         </li>
-        <li>
-          {/* <Link href="/cms-poc">
-            <a>CMS POC</a>
-          </Link> */}
-        </li>
+
       </CenteredFooter>
     </Section>
   </Background>
