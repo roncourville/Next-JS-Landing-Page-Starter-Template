@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Base } from '../templates/Base';
 // import { html } from 'next/document'
 // import { Html } from 'next/html';
@@ -7,6 +8,86 @@ import Head from 'next/head';
 
 const Index = () => <html>
 <Head>
+
+
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://connect.facebook.net/signals/config/1821624764800433?v=2.9.95&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-M4XZBMN"></script><script data-cfasync="false" data-pagespeed-no-defer="">
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+</script>
+
+<script src="https://marity.qodeinteractive.com/wp-includes/js/wp-emoji-release.min.js?ver=6.1.1" type="text/javascript" defer=""></script>
+<script type="text/javascript" src="https://marity.qodeinteractive.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://marity.qodeinteractive.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/51/8/common.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/51/8/util.js"></script>
+{/* 
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/marity.qodeinteractive.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1"}};
+
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<script data-cfasync="false" data-pagespeed-no-defer="">
+	var dataLayer_content = {"pagePostType":"frontpage","pagePostType2":"single-page","pagePostAuthor":"admin"};
+	dataLayer.push( dataLayer_content );
+</script>
+<script data-cfasync="false">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M4XZBMN');
+</script>
+<script>function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+				try {
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+					if(e.layout==="fullscreen" || e.l==="fullscreen")
+						newh = Math.max(e.mh,window.RSIH);
+					else{
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,
+							sl;
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}
+					var el = document.getElementById(e.c);
+					if (el!==null && el) el.style.height = newh+"px";
+					el = document.getElementById(e.c+"_wrapper");
+					if (el!==null && el) {
+						el.style.height = newh+"px";
+						el.style.display = "block";
+					}
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}
+			//});
+		  };</script>
+       */}
+
 <link
     rel="stylesheet"
     id="animate-css"
@@ -197,8 +278,8 @@ const Index = () => <html>
 <body>
       <div id="qodef-page-wrapper">
 
-        <header id="qodef-page-header" role="banner">
-          <div id="qodef-page-header-inner" className=" qodef-skin--light">
+        <header id="qodef-page-header" role="banner" style={{backgroundColor: 'inherit'}}>
+          <div id="qodef-page-header-inner" className=" qodef-skin--light" style={{top: '50px'}}>
             <div className="qodef-page-header-logo-wrapper">
               <a itemProp="url" className="qodef-header-logo-link qodef-height--set qodef-source--image" href="https://marity.qodeinteractive.com/" rel="home">
                 <img width={300} height={40} src="https://marity.qodeinteractive.com/wp-content/uploads/2022/10/logo-main-img.png" className="qodef-header-logo-image qodef--main" alt="logo main" itemProp="image" /><img width={300} height={40} src="https://marity.qodeinteractive.com/wp-content/uploads/2022/10/logo-main-img.png" className="qodef-header-logo-image qodef--dark" alt="logo dark" itemProp="image" /><img width={300} height={40} src="https://marity.qodeinteractive.com/wp-content/uploads/2022/10/logo-main-img.png" className="qodef-header-logo-image qodef--light" alt="logo light" itemProp="image" /></a>
@@ -217,7 +298,7 @@ const Index = () => <html>
                   </a>
                 </div> </div>
             </div>
-            <nav className="qodef-header-vertical-over-content-navigation qodef-vertical-drop-down--below qodef-custom-header-navigation" role="navigation" aria-label="Vertical Menu">
+            <nav style={{display: 'none'}} className="qodef-header-vertical-over-content-navigation qodef-vertical-drop-down--below qodef-custom-header-navigation" role="navigation" aria-label="Vertical Menu">
               <ul id="menu-home-2" className="menu"><li className="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-8141 qodef-menu-item--narrow"><svg className="qodef-svg--menu-star qodef-menu-item-star" xmlns="http://www.w3.org/2000/svg" width="7.5361" height="7.936" viewBox="0 0 7.5361 7.936"><path d="M4.3359 0 4.064 2.9917 2.72 3.76 0 2.4961l.72-1.2324 1.84 1.3442.5918-.3359L2.896.0156ZM0 5.44l2.72-1.2642 1.3442.7681.272 2.9922L2.896 7.92l.2559-2.2559-.5919-.3365L.72 6.6719Zm6.8159 1.0239L4.3682 4.7358V3.2L6.816 1.472l.72 1.248-2.096.9118v.6719l2.0962.9121Z" fill="currentColor" /></svg><a href="#"><span className="qodef-menu-item-text"><span>Home<svg className="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg" width="6.0819" height="9.7433" viewBox="0 0 6.0819 9.7433"><path fill="none" stroke="currentColor" strokeMiterlimit={10} d="m.334.372 5 4.5-5 4.5" /></svg></span></span></a>
                   <div className="qodef-drop-down-second"><div className="qodef-drop-down-second-inner"><ul className="sub-menu">
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-61 current_page_item menu-item-8146"><svg className="qodef-svg--menu-star qodef-menu-item-star" xmlns="http://www.w3.org/2000/svg" width="7.5361" height="7.936" viewBox="0 0 7.5361 7.936"><path d="M4.3359 0 4.064 2.9917 2.72 3.76 0 2.4961l.72-1.2324 1.84 1.3442.5918-.3359L2.896.0156ZM0 5.44l2.72-1.2642 1.3442.7681.272 2.9922L2.896 7.92l.2559-2.2559-.5919-.3365L.72 6.6719Zm6.8159 1.0239L4.3682 4.7358V3.2L6.816 1.472l.72 1.248-2.096.9118v.6719l2.0962.9121Z" fill="currentColor" /></svg><a href="https://marity.qodeinteractive.com/"><span className="qodef-menu-item-text"><span>Main Home</span></span></a></li>
@@ -382,633 +463,8 @@ const Index = () => <html>
 
 
 
-                                <rs-fullwidth-wrap id="rev_slider_4_1_forcefullwidth" style={{}}>
-  <rs-module-wrap
-    id="rev_slider_4_1_wrapper"
-    data-source="gallery"
-    style={{
-      visibility: "visible",
-      background: "transparent",
-      padding: 0,
-      height: 683,
-      display: "block",
-      width: 1903,
-      marginTop: 0,
-      marginBottom: 0,
-      position: "absolute",
-      maxHeight: "none",
-      overflow: "visible",
-      left: 0,
-      transform: "translate(0px, 0px)",
-      top: 0
-    }}
-  >
-    <rs-module
-      id="rev_slider_4_1"
-      style={{ height: "100%", width: 1903, maxHeight: "none" }}
-      data-version="6.6.8"
-      data-idcheck="true"
-      className="revslider-initialised rev_redraw_on_blurfocus"
-      data-slideactive="rs-6"
-    >
-      <rs-bullets
-        style={{
-          opacity: 1,
-          width: 51,
-          height: 7,
-          transform: "translate(-96px, -67px)",
-          top: "100%",
-          left: "100%"
-        }}
-        className="tp-bullets marity horizontal nav-pos-hor-right nav-pos-ver-bottom nav-dir-horizontal"
-      >
-        <rs-bullet
-          data-key="rs-4"
-          className="tp-bullet"
-          style={{ left: 0, top: 0 }}
-        />
-        <rs-bullet
-          data-key="rs-5"
-          className="tp-bullet"
-          style={{ left: 22, top: 0 }}
-        />
-        <rs-bullet
-          data-key="rs-6"
-          className="tp-bullet selected"
-          style={{ left: 44, top: 0 }}
-        />
-      </rs-bullets>
-      <rs-progress style={{ visibility: "hidden" }}>
-        <rs-progress-bar
-          style={{
-            background: "rgba(255, 255, 255, 0.5)",
-            transformOrigin: "0% 50%",
-            transform: "translate3d(0px, 0px, 0px) scale(0.8023, 1)"
-          }}
-        />
-      </rs-progress>
-      <rs-slides
-        style={{
-          overflow: "hidden",
-          position: "absolute",
-          visibility: "visible",
-          maxHeight: "none",
-          height: "100%",
-          width: "100%"
-        }}
-      >
-        <rs-slide
-          style={{
-            position: "absolute",
-            display: "none",
-            overflow: "hidden",
-            height: "100%",
-            width: "100%",
-            zIndex: 10,
-            opacity: 1,
-            visibility: "inherit"
-          }}
-          data-key="rs-4"
-          data-title="Slide"
-          data-thumb="//marity.qodeinteractive.com/wp-content/uploads/2022/11/h1-rev-slide1-50x100.jpg"
-          data-in="o:0;"
-          data-out="a:false;"
-          data-originalindex={1}
-          data-origindex={0}
-          data-description=""
-          data-sba=""
-          data-scroll-based="false"
-          data-owidth={1920}
-          data-oheight={1080}
-          data-rspausetimeronce={0}
-          data-isactiveslide="false"
-        >
-          <rs-sbg-px>
-            <rs-sbg-wrap data-key="rs-4" data-owidth={1920} data-oheight={1080}>
-              {/*Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img decoding="async" src="//marity.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="kj" title="h1-rev-slide1" width="1920" height="1080" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//marity.qodeinteractive.com/wp-content/uploads/2022/11/h1-rev-slide1.jpg" data-panzoom="d:13000ms;ss:100;se:110%;oe:0/50px;" data-no-retina="">*/}
-              <rs-sbg
-                data-lazyload="//marity.qodeinteractive.com/wp-content/uploads/2022/11/h1-rev-slide1.jpg"
-                className=""
-                data-bgcolor="transparent"
-                style={{ width: "100%", height: "100%" }}
-                data-src-rs-ref="//marity.qodeinteractive.com/wp-content/uploads/2022/11/h1-rev-slide1.jpg"
-              >
-                <canvas
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    backgroundColor: "transparent",
-                    opacity: 1,
-                    filter: "none",
-                    transform: "translate(0px, 0px)"
-                  }}
-                  width={1413}
-                  height={909}
-                />
-                <img
-                  data-reference="//marity.qodeinteractive.com/wp-content/uploads/2022/11/h1-rev-slide1.jpg"
-                  src="//marity.qodeinteractive.com/wp-content/uploads/2022/11/h1-rev-slide1.jpg"
-                  width={1413}
-                  height={794}
-                  style={{
-                    position: "absolute",
-                    display: "none",
-                    zIndex: 0,
-                    opacity: 1,
-                    top: 0,
-                    left: 0,
-                    filter: "none",
-                    transformOrigin: "0% 0%",
-                    transform:
-                      "translate3d(-70.65px, -119.647px, 0px) scale(1.1, 1.1)",
-                    height: 795,
-                    width: 1413
-                  }}
-                  data-src-rs-ref="https://marity.qodeinteractive.com/wp-content/uploads/2022/11/h1-rev-slide1.jpg"
-                />
-              </rs-sbg>
-            </rs-sbg-wrap>
-          </rs-sbg-px>
-          <rs-layer-wrap
-            className="rs-parallax-wrap rs-forcehidden"
-            style={{
-              position: "absolute",
-              display: "block",
-              pointerEvents: "none",
-              left: 111,
-              top: 302,
-              zIndex: 5,
-              visibility: "hidden",
-              perspective: 601
-            }}
-          >
-            <rs-layer
-              id="slider-4-slide-4-layer-0"
-              data-type="text"
-              data-xy="xo:111px,111px,53px,25px;y:m;yo:-90px,-90px,-90px,-40px;"
-              data-text="w:normal;s:52,52,52,40;l:62,62,62,48;"
-              data-dim="w:678px,718px,591px,316px;"
-              data-basealign="slide"
-              data-rsp_o="off"
-              data-rsp_bd="off"
-              data-frame_0="y:50;"
-              data-frame_1="e:power3.out;st:100;sp:1000;"
-              data-frame_999="o:0;st:w;"
-              style={{
-                zIndex: 5,
-                fontFamily: "Sora",
-                height: "auto",
-                color: "rgb(255, 255, 255)",
-                textDecoration: "none",
-                whiteSpace: "normal",
-                width: 718,
-                minHeight: 0,
-                minWidth: 0,
-                maxHeight: "none",
-                maxWidth: "none",
-                textAlign: "left",
-                lineHeight: 62,
-                letterSpacing: 0,
-                fontWeight: 300,
-                fontSize: 52,
-                transformOrigin: "50% 50%",
-                opacity: 0,
-                transform: "translate(0px, 0px)",
-                visibility: "visible"
-              }}
-              className="rs-layer"
-              data-idcheck="true"
-              data-stylerecorder="true"
-              data-initialised="true"
-            >
-              Marity Center is the leading research institute
-            </rs-layer>
-          </rs-layer-wrap>
-          <rs-layer-wrap
-            className="rs-parallax-wrap rs-forcehidden"
-            style={{
-              position: "absolute",
-              display: "block",
-              pointerEvents: "none",
-              left: 111,
-              top: 497,
-              zIndex: 6,
-              visibility: "hidden",
-              perspective: 601
-            }}
-          >
-            <rs-layer
-              id="slider-4-slide-4-layer-1"
-              data-type="text"
-              data-xy="xo:111px,111px,53px,25px;y:m;yo:55px,55px,55px,105px;"
-              data-text="w:normal;"
-              data-basealign="slide"
-              data-rsp_o="off"
-              data-rsp_bd="off"
-              data-frame_0="y:50;"
-              data-frame_1="e:power3.out;st:250;sp:1000;"
-              data-frame_999="o:0;st:w;"
-              style={{
-                zIndex: 6,
-                fontFamily: "Sora",
-                height: "auto",
-                width: "auto",
-                color: "rgb(255, 255, 255)",
-                textDecoration: "none",
-                whiteSpace: "nowrap",
-                minHeight: 0,
-                minWidth: 0,
-                maxHeight: "none",
-                maxWidth: "none",
-                textAlign: "left",
-                lineHeight: 25,
-                letterSpacing: 0,
-                fontWeight: 300,
-                fontSize: 20,
-                transformOrigin: "50% 50%",
-                opacity: 0,
-                transform: "translate(0px, 0px)",
-                visibility: "visible"
-              }}
-              className="rs-layer"
-              data-idcheck="true"
-              data-stylerecorder="true"
-              data-initialised="true"
-            >
-              *Est altera sea incorrupte
-            </rs-layer>
-          </rs-layer-wrap>{" "}
-        </rs-slide>
-        <rs-slide
-          style={{
-            position: "absolute",
-            display: "none",
-            overflow: "hidden",
-            height: "100%",
-            width: "100%",
-            zIndex: 10,
-            opacity: 1,
-            visibility: "inherit"
-          }}
-          data-key="rs-5"
-          data-title="Slide"
-          data-thumb="//marity.qodeinteractive.com/wp-content/uploads/2022/11/h1-rev-slide2-50x100.jpg"
-          data-in="o:0;"
-          data-out="a:false;"
-          data-originalindex={2}
-          data-origindex={1}
-          data-description=""
-          data-sba=""
-          data-scroll-based="false"
-          data-owidth={1920}
-          data-oheight={1080}
-          data-rspausetimeronce={0}
-          data-isactiveslide="false"
-        >
-          <rs-sbg-px>
-            <rs-sbg-wrap data-key="rs-5" data-owidth={1920} data-oheight={1080}>
-              {/*Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img decoding="async" src="//marity.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="d" title="h1-rev-slide2" width="1920" height="1080" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//marity.qodeinteractive.com/wp-content/uploads/2022/11/h1-rev-slide2.jpg" data-panzoom="d:13000ms;ss:100;se:110%;os:50px/0;" data-no-retina="">*/}
-              <rs-sbg
-                data-lazyload="//marity.qodeinteractive.com/wp-content/uploads/2022/11/h1-rev-slide2.jpg"
-                className=""
-                data-bgcolor="transparent"
-                style={{ width: "100%", height: "100%" }}
-                data-src-rs-ref="//marity.qodeinteractive.com/wp-content/uploads/2022/11/h1-rev-slide2.jpg"
-              >
-                <canvas
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    backgroundColor: "transparent",
-                    opacity: 0,
-                    filter: "none",
-                    transform: "translate(0px, 0px)"
-                  }}
-                  width={1413}
-                  height={535}
-                />
-                <img
-                  data-reference="//marity.qodeinteractive.com/wp-content/uploads/2022/11/h1-rev-slide2.jpg"
-                  src="//marity.qodeinteractive.com/wp-content/uploads/2022/11/h1-rev-slide2.jpg"
-                  width={1903}
-                  height={1070}
-                  style={{
-                    position: "absolute",
-                    display: "none",
-                    zIndex: 0,
-                    opacity: 1,
-                    top: 0,
-                    left: 0,
-                    filter: "none",
-                    transformOrigin: "0% 0%",
-                    transform:
-                      "translate3d(-95.15px, -247.241px, 0px) scale(1.1, 1.1)",
-                    height: 1070,
-                    width: 1903
-                  }}
-                  data-src-rs-ref="https://marity.qodeinteractive.com/wp-content/uploads/2022/11/h1-rev-slide2.jpg"
-                />
-              </rs-sbg>
-            </rs-sbg-wrap>
-          </rs-sbg-px>
-          <rs-layer-wrap
-            className="rs-parallax-wrap rs-forcehidden"
-            style={{
-              position: "absolute",
-              display: "block",
-              pointerEvents: "none",
-              left: 111,
-              top: 84,
-              zIndex: 5,
-              visibility: "hidden",
-              perspective: 601
-            }}
-          >
-            <rs-layer
-              id="slider-4-slide-5-layer-0"
-              data-type="text"
-              data-xy="xo:111px,111px,53px,25px;y:m;yo:-90px,-90px,-90px,-40px;"
-              data-text="w:normal;s:52,52,52,40;l:62,62,62,48;"
-              data-dim="w:928px,727px,653px,331px;"
-              data-basealign="slide"
-              data-rsp_o="off"
-              data-rsp_bd="off"
-              data-frame_0="y:50;"
-              data-frame_1="e:power3.out;st:100;sp:1000;"
-              data-frame_999="o:0;st:w;"
-              style={{
-                zIndex: 5,
-                fontFamily: "Sora",
-                height: "auto",
-                color: "rgb(255, 255, 255)",
-                textDecoration: "none",
-                whiteSpace: "normal",
-                width: 727,
-                minHeight: 0,
-                minWidth: 0,
-                maxHeight: "none",
-                maxWidth: "none",
-                textAlign: "left",
-                lineHeight: 62,
-                letterSpacing: 0,
-                fontWeight: 300,
-                fontSize: 52,
-                transformOrigin: "50% 50%",
-                opacity: 0,
-                transform: "translate(0px, 0px)",
-                visibility: "visible"
-              }}
-              className="rs-layer"
-              data-idcheck="true"
-              data-stylerecorder="true"
-              data-initialised="true"
-            >
-              Our scientists are devoted to development of new discoveries
-            </rs-layer>
-          </rs-layer-wrap>
-          <rs-layer-wrap
-            className="rs-parallax-wrap rs-forcehidden"
-            style={{
-              position: "absolute",
-              display: "block",
-              pointerEvents: "none",
-              left: 111,
-              top: 310,
-              zIndex: 6,
-              visibility: "hidden",
-              perspective: 601
-            }}
-          >
-            <rs-layer
-              id="slider-4-slide-5-layer-1"
-              data-type="text"
-              data-xy="xo:111px,111px,53px,25px;y:m;yo:55px,55px,55px,105px;"
-              data-text="w:normal;"
-              data-basealign="slide"
-              data-rsp_o="off"
-              data-rsp_bd="off"
-              data-frame_0="y:50;"
-              data-frame_1="e:power3.out;st:250;sp:1000;"
-              data-frame_999="o:0;st:w;"
-              style={{
-                zIndex: 6,
-                fontFamily: "Sora",
-                height: "auto",
-                width: "auto",
-                color: "rgb(255, 255, 255)",
-                textDecoration: "none",
-                whiteSpace: "nowrap",
-                minHeight: 0,
-                minWidth: 0,
-                maxHeight: "none",
-                maxWidth: "none",
-                textAlign: "left",
-                lineHeight: 25,
-                letterSpacing: 0,
-                fontWeight: 300,
-                fontSize: 20,
-                transformOrigin: "50% 50%",
-                opacity: 0,
-                transform: "translate(0px, 0px)",
-                visibility: "visible"
-              }}
-              className="rs-layer"
-              data-idcheck="true"
-              data-stylerecorder="true"
-              data-initialised="true"
-            >
-              *Est altera sea incorrupte
-            </rs-layer>
-          </rs-layer-wrap>{" "}
-        </rs-slide>
-        <rs-slide
-          style={{
-            position: "absolute",
-            display: "block",
-            overflow: "hidden",
-            height: "100%",
-            width: "100%",
-            zIndex: 20,
-            opacity: 1,
-            visibility: "inherit"
-          }}
-          data-key="rs-6"
-          data-title="Slide"
-          data-thumb="//marity.qodeinteractive.com/wp-content/uploads/2022/11/h1-rev-slide3-50x100.jpg"
-          data-in="o:0;"
-          data-out="a:false;"
-          data-originalindex={3}
-          data-origindex={2}
-          data-description=""
-          data-sba=""
-          data-scroll-based="false"
-          data-owidth={1920}
-          data-oheight={1080}
-          data-rspausetimeronce={0}
-          data-isactiveslide="true"
-        >
-          <rs-sbg-px>
-            <rs-sbg-wrap data-key="rs-6" data-owidth={1920} data-oheight={1080}>
-              {/*Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img decoding="async" src="//marity.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="d" title="h1-rev-slide3" width="1920" height="1080" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//marity.qodeinteractive.com/wp-content/uploads/2022/11/h1-rev-slide3.jpg" data-panzoom="d:13000ms;ss:100;se:110%;oe:50px/50px;" data-no-retina="">*/}
-              <rs-sbg
-                data-lazyload="//marity.qodeinteractive.com/wp-content/uploads/2022/11/h1-rev-slide3.jpg"
-                className=""
-                data-bgcolor="transparent"
-                style={{ width: "100%", height: "100%" }}
-                data-src-rs-ref="//marity.qodeinteractive.com/wp-content/uploads/2022/11/h1-rev-slide3.jpg"
-              >
-                <canvas
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    backgroundColor: "transparent",
-                    opacity: 0,
-                    filter: "none"
-                  }}
-                  width={1903}
-                  height={683}
-                />
-                <img
-                  data-reference="//marity.qodeinteractive.com/wp-content/uploads/2022/11/h1-rev-slide3.jpg"
-                  src="//marity.qodeinteractive.com/wp-content/uploads/2022/11/h1-rev-slide3.jpg"
-                  width={1903}
-                  height={1070}
-                  style={{
-                    position: "absolute",
-                    display: "block",
-                    zIndex: 0,
-                    opacity: 1,
-                    top: 0,
-                    left: 0,
-                    filter: "none",
-                    transformOrigin: "0% 0%",
-                    transform:
-                      "translate3d(-45.15px, -197.241px, 0px) scale(1.1, 1.1)",
-                    height: 1070,
-                    width: 1903
-                  }}
-                />
-              </rs-sbg>
-            </rs-sbg-wrap>
-          </rs-sbg-px>
-          <rs-layer-wrap
-            className="rs-parallax-wrap"
-            style={{
-              position: "absolute",
-              display: "block",
-              pointerEvents: "auto",
-              left: 111,
-              top: 189,
-              zIndex: 5,
-              visibility: "visible",
-              perspective: 601
-            }}
-          >
-            <rs-layer
-              id="slider-4-slide-6-layer-0"
-              data-type="text"
-              data-xy="xo:111px,111px,53px,25px;y:m;yo:-90px,-90px,-90px,-40px;"
-              data-text="w:normal;s:52,52,52,40;l:62,62,62,48;"
-              data-dim="w:763px,763px,595px,316px;"
-              data-basealign="slide"
-              data-rsp_o="off"
-              data-rsp_bd="off"
-              data-frame_0="y:50;"
-              data-frame_1="e:power3.out;st:100;sp:1000;"
-              data-frame_999="o:0;st:w;"
-              style={{
-                zIndex: 5,
-                fontFamily: "Sora",
-                height: "auto",
-                color: "rgb(255, 255, 255)",
-                textDecoration: "none",
-                whiteSpace: "normal",
-                width: 763,
-                minHeight: 0,
-                minWidth: 0,
-                maxHeight: "none",
-                maxWidth: "none",
-                textAlign: "left",
-                lineHeight: 62,
-                letterSpacing: 0,
-                fontWeight: 300,
-                fontSize: 52,
-                transformOrigin: "50% 50%",
-                opacity: 1,
-                transform: "translate(0px, 0px)",
-                visibility: "visible"
-              }}
-              className="rs-layer"
-              data-idcheck="true"
-              data-stylerecorder="true"
-              data-initialised="true"
-            >
-              Use Marity to discover more about clinical neuroscience
-            </rs-layer>
-          </rs-layer-wrap>
-          <rs-layer-wrap
-            className="rs-parallax-wrap"
-            style={{
-              position: "absolute",
-              display: "block",
-              pointerEvents: "auto",
-              left: 111,
-              top: 384,
-              zIndex: 6,
-              visibility: "visible",
-              perspective: 601
-            }}
-          >
-            <rs-layer
-              id="slider-4-slide-6-layer-1"
-              data-type="text"
-              data-xy="xo:111px,111px,53px,25px;y:m;yo:55px,55px,55px,105px;"
-              data-text="w:normal;"
-              data-basealign="slide"
-              data-rsp_o="off"
-              data-rsp_bd="off"
-              data-frame_0="y:50;"
-              data-frame_1="e:power3.out;st:250;sp:1000;"
-              data-frame_999="o:0;st:w;"
-              style={{
-                zIndex: 6,
-                fontFamily: "Sora",
-                height: "auto",
-                width: "auto",
-                color: "rgb(255, 255, 255)",
-                textDecoration: "none",
-                whiteSpace: "nowrap",
-                minHeight: 0,
-                minWidth: 0,
-                maxHeight: "none",
-                maxWidth: "none",
-                textAlign: "left",
-                lineHeight: 25,
-                letterSpacing: 0,
-                fontWeight: 300,
-                fontSize: 20,
-                transformOrigin: "50% 50%",
-                opacity: 1,
-                transform: "translate(0px, 0px)",
-                visibility: "visible"
-              }}
-              className="rs-layer"
-              data-idcheck="true"
-              data-stylerecorder="true"
-              data-initialised="true"
-            >
-              *Est altera sea incorrupte
-            </rs-layer>
-          </rs-layer-wrap>{" "}
-        </rs-slide>
-      </rs-slides>
-    </rs-module>
-  </rs-module-wrap>
-  <rs-fw-forcer style={{ height: 683 }} />
-</rs-fullwidth-wrap>
 
-
-
+<div style={{width: '100%', height: 683, backgroundColor: '#666'}}></div>
 
 
                                 </div>
