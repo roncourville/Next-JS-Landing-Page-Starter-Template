@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - marity
+      - rcp
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
